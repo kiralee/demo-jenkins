@@ -1,3 +1,3 @@
 <?php
 phpinfo();
-echo "something else";
+echo "something else 123";
