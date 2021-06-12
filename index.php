@@ -1,3 +1,2 @@
 <?php
-phpinfo();
-echo "something else 123";
+echo "Welcome to demo jenkins for Style Project";
