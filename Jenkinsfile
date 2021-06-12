@@ -3,7 +3,17 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'php --version'
+                echo "Building"
+            }
+        }
+        stage('test') {
+            steps {
+                echo "Testing"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "Deployed"
             }
         }
     }
